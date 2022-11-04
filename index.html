@@ -1,15 +1,49 @@
 <!DOCTYPE html>
+<link href="css/stylesheet.css" rel="stylesheet">
 
 <html>  
-    <head>
-        <!--Title for foods-->
-        <title>Foods</title>
-    </head>   
+<head>
+    <!--Title for foods-->
+    <title>Shocker foods website</title>
+</head>   
 
-    <body>
-        <h1>Food</h1>
-        <p>Food is cool</p>
-        <img src="img/food.jpg" width="300" length="50">
-    </body>
+<body>
+    <!--div is used as a container for other HTML elements-->
+    <!--I believe it is essentially just used to organize + edit, and name sections of the website-->
+    <div class = "main-container">
+        <div class = "profile">
+            <div class = "profile-text">
+                <h1>Foods</h1>
+                <img src="img/food.jpg" width="250px" alt="Foods">
+                <p>This is a random assortment of food on a table</p>
+            </div>
+        </div>
+        <!--Span is an inline container used to mark up a part of text or document
+        I believe that it is simply used to apply a command across more elements-->
 
-</html>
+        <div class = "lists">
+            <div>
+                <h2>Some of the foods:</h2>
+                <ul>    
+                    <li>Bread</li>
+                    <li>Omelette</li>
+                    <li>Pancake</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Ingredients include:</h3>
+                <ol>
+                    <li>Eggs</li>
+                    <li>Flour</li>
+                    <li>Cilantro</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class = "button-container">
+            <a href="https://www.amazon.com/cookbooks/" target="_blank">Click here for some cookbooks</a>
+        </div>
+    </div>
+
+</body>
