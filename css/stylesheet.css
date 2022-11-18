@@ -45,6 +45,13 @@ html,body{
     list-style: none;
 }
 
+/* Footer nav */
+footer{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    
+}
+
 /* Heading */
 h1 {
     border : 3px solid black;
@@ -53,3 +60,4 @@ h1 {
     margin-left: 35%;
     margin-right: 35%;
 }
+
