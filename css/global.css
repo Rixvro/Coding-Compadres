@@ -89,10 +89,10 @@ footer #social ul li{
 }
 
 footer #social ul li a{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:30px;
-    height:30px;
+    display: flex;
     border-radius: 40px;
+}
+
+footer #social ul li a i{
+    font-size: 20px;
 }
