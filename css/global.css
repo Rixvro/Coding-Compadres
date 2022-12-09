@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Sono:wght@700&family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Sono:wght@700&display=swap');
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 16px;
+    height: 100%;
+    width: 100%; 
+}
+
+img{
+    width: 100%;
+}
+
+/* Nav bar */
+.topnav{
+    background-color: gray;
+}
+
+.topnav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+
+.topnav ul li{
+    list-style: none;
+}
+
+.topnav ul li a{
+    display: block;
+    margin: 1em;
+    color: black;
+    transition: 0.5s;
+}
+
+.topnav ul li a:hover{
+    background-color: rgb(51, 13, 156);
+    color:rgb(255, 0, 149);
+}
+
+/* paragraph/writing */
+p{
+    border-style: solid;
+    padding: 20px;
+}
+
+/* buttons */
+.button-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.button-container a{
+    color:yellow;
+}
+
+/* Footer nav */
+footer{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+footer nav ul{
+    list-style: none;
+}
+
+footer nav ul li a{
+    color: yellow;
+}
+
+footer #social ul{
+    display: flex;
+    justify-content: right;
+}
+
+footer #social ul li{
+    list-style: none;
+}
+
+footer #social ul li a{
+    display: flex;
+    border-radius: 40px;
+}
+
+footer #social ul li a i{
+    font-size: 20px;
+}
