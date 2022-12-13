@@ -23,11 +23,21 @@ h2{
     padding : 20px;
 }
 
-
+/* profile changes*/
 .profile{
     display: flex;
+    justify-content: center;
 }
 
+.profile #hero{
+    max-width: max-content;
+}
+
+.profile-text p{
+    max-width: 750px;
+}
+
+/* content */
 .content{
     display: flex;
 }

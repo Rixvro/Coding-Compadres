@@ -57,10 +57,6 @@ p{
     font-size: 16px;
 }
 
-.button-container a{
-    color:yellow;
-}
-
 /* Footer nav */
 footer{
     display: grid;
