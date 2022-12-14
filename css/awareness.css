@@ -3,6 +3,10 @@
     object-fit: cover;
 }
 
+.profile #hero{
+    max-width: max-content;
+}
+
 /* main */
 main{
     margin: 0 auto;
@@ -23,11 +27,17 @@ h2{
     padding : 20px;
 }
 
-
+/* profile */
 .profile{
     display: flex;
+    justify-content: center;
 }
 
+.profile-text p{
+    max-width: 500px;
+}
+
+/* content */
 .content{
     display: flex;
 }
